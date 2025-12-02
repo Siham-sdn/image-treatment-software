@@ -91,9 +91,10 @@ Si l’option est activée :
 
 ---
 
-## 📸 Captures d'écran
+## 📸 Capture d'écran
 
-Voici quelques aperçus de l'application :
+<img width="960" height="540" alt="Interface " src="https://github.com/user-attachments/assets/a0a5949d-1d64-4f46-b63c-0a2e5bbd6a60" />
+
 
 
 
