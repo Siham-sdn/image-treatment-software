@@ -61,7 +61,7 @@ Lancer l’exécutable de l’application. Une interface graphique s’affiche a
 - **Retirer du Pipeline** : supprime le traitement sélectionné
 - **Vider le Pipeline** : supprime tous les traitements
 - **Sauvegarder Pipeline** : enregistre la configuration actuelle
-  <img width="960" height="540" alt="Sauvgarde pipeline" src="https://github.com/user-attachments/assets/03316c01-236e-4f9a-b99b-9461417d156f" />
+<img width="960" height="540" alt="Sauvgarde pipeline" src="https://github.com/user-attachments/assets/03316c01-236e-4f9a-b99b-9461417d156f" />
 
 - **Charger Pipeline** : charge une configuration sauvegardée
 <img width="960" height="540" alt="Charger pipeline" src="https://github.com/user-attachments/assets/32221c3d-dd4d-42a2-b2fd-a19ce6a0914c" />
