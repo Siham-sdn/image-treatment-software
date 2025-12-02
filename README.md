@@ -53,9 +53,9 @@ L’interface est composée de :
   - Démarrer Webcam
   - Sauvegarder Image 
   - Sauvegarder Vidéo
-  - Charger Pipeline
   - Sauvegarder Pipeline
-
+  - Charger Pipeline
+  
 
 ## Installation & compilation  
 
