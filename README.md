@@ -82,6 +82,7 @@ Chemins
   └── ...                # Autres fichiers sources
 ```
 
-
-
+## Démonstration vidéo
+Vous pouvez voir une démonstration de l'application sur YouTube :
+[![Regarder la vidéo](https://img.youtube.com/vi/https://www.youtube.com/watch?v=OuklhfQZ1ZQ/0.jpg)](https://www.youtube.com/watch?v=https://www.youtube.com/watch?v=OuklhfQZ1ZQ)
 
