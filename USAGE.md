@@ -4,6 +4,8 @@
 
 ## 1. Démarrage de l’application
 Lancer l’exécutable de l’application. Une interface graphique s’affiche avec les panneaux suivants :
+<img width="960" height="540" alt="Interface " src="https://github.com/user-attachments/assets/f22c0f8b-90dc-49c6-b8a3-41bddafba387" />
+
 - Zone **Traitements**
 - Zone **Pipeline**
 - Zone d’**affichage centrale**
@@ -18,6 +20,7 @@ Lancer l’exécutable de l’application. Une interface graphique s’affiche a
 1. Cliquer sur le bouton **Charger Image**
 2. Sélectionner un fichier image (JPG, PNG, BMP, etc.)
 3. L’image s’affiche automatiquement à l’écran
+<img width="960" height="540" alt="Charger image" src="https://github.com/user-attachments/assets/f2575f2a-8efb-4ba0-ab17-84f6d9e3ec70" />
 
 ---
 
@@ -25,6 +28,7 @@ Lancer l’exécutable de l’application. Une interface graphique s’affiche a
 1. Cliquer sur le bouton **Charger Vidéo**
 2. Sélectionner un fichier vidéo
 3. La vidéo est prête à être lue
+<img width="960" height="540" alt="Charger video" src="https://github.com/user-attachments/assets/00e64a9d-99c7-4701-9b1a-d32b7aa6b66a" />
 
 ---
 
@@ -47,15 +51,20 @@ Lancer l’exécutable de l’application. Une interface graphique s’affiche a
 
 2. Glisser le traitement dans la zone **Pipeline**
 3. Le traitement est appliqué automatiquement
+<img width="960" height="540" alt="Glisser traits Image" src="https://github.com/user-attachments/assets/835920fc-c3a0-46ce-849b-19c15cb9f015" />
 
 ---
 
 ## 4. Gestion du Pipeline
+<img width="710" height="385" alt="Pipeline image" src="https://github.com/user-attachments/assets/850b6c2c-e41d-4b49-88b9-c1bf6b79c323" />
 
 - **Retirer du Pipeline** : supprime le traitement sélectionné
 - **Vider le Pipeline** : supprime tous les traitements
 - **Sauvegarder Pipeline** : enregistre la configuration actuelle
+  <img width="960" height="540" alt="Sauvgarde pipeline" src="https://github.com/user-attachments/assets/03316c01-236e-4f9a-b99b-9461417d156f" />
+
 - **Charger Pipeline** : charge une configuration sauvegardée
+<img width="960" height="540" alt="Charger pipeline" src="https://github.com/user-attachments/assets/32221c3d-dd4d-42a2-b2fd-a19ce6a0914c" />
 
 ---
 
