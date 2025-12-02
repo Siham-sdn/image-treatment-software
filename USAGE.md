@@ -108,7 +108,6 @@ Les miniatures des résultats sont affichées dans la zone **Miniatures**.
 - Les traitements peuvent être combinés grâce au **pipeline**
 - L’ordre des traitements influence le résultat final
 - L’application fonctionne en **temps réel**
-- La webcam nécessite une autorisation d’accès
 
 ---
 
