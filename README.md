@@ -25,11 +25,13 @@ git clone https://github.com/Siham-sdn/image-treatment-software.git
 cd image-treatment-software
 
 # Ouvrir le fichier solution dans Visual Studio
-# puis compiler le projet pour générer l’exécutable (GUI.exe) ```
+# puis compiler le projet pour générer l’exécutable (GUI.exe) 
+```
 
 
+Chemins
 
-bash
+```bash
 
 / (root)
   ├── GUI.sln            # Solution Visual Studio
@@ -39,3 +41,54 @@ bash
   ├── ThumbnailPanel.cpp / .h  
   ├── TreatmentDropTarget.cpp / .h  
   └── ...                # Autres fichiers sources
+```
+
+
+## Fonctionnement détaillé des fonctionnalités
+
+### 📁 1. Chargement d'image
+L'utilisateur peut importer une image via :
+- Le menu « Ouvrir… »
+- Le glisser-déposer directement dans la fenêtre
+Le programme utilise un gestionnaire d'événements pour récupérer le chemin du fichier, charger l'image en mémoire, puis l'afficher dans le panneau principal.
+
+### 🖼️ 2. Affichage de l'image originale
+Une fois l'image chargée :
+- Le fichier est décodé (format BMP, PNG, JPG, selon support)
+- L'image est stockée dans un objet interne (souvent `wxImage` ou équivalent si la GUI utilise wxWidgets)
+- Le `ImagePanel` se charge de l’afficher avec un redimensionnement automatique si nécessaire
+
+### ✨ 3. Application de traitements (filtres)
+Selon les modules déjà implémentés :
+- Chaque traitement manipule les pixels de l’image chargée  
+- L’algorithme parcourt l’image (boucles sur X et Y)
+- Une nouvelle image modifiée est générée puis affichée en aperçu
+
+Exemples de traitements possibles :
+- Conversion en niveaux de gris  
+- Augmentation du contraste  
+- Filtre de flou  
+- Détection de contours  
+(Il suffit d’ajouter les fonctions dans le code source pour enrichir l’application)
+
+### 🧩 4. Panneau de miniatures (Thumbnail Panel)
+Lorsque des traitements sont appliqués :
+- Une copie miniaturisée (thumbnail) est générée
+- Elle est affichée dans un panneau dédié pour visualiser les différentes versions
+- L'utilisateur peut cliquer sur une miniature pour la réafficher en grand
+
+### 🎯 5. Drag & Drop (treatmentDropTarget)
+L'application supporte le glisser-déposer d’images :
+- Le fichier est détecté grâce à un `DropTarget` personnalisé
+- Le programme vérifie si l’extension est valide
+- L’image est directement chargée dans le panneau principal
+
+### 💾 6. Sauvegarde des images
+Si l’option est activée :
+- L’utilisateur peut enregistrer l’image modifiée  
+- L’image est exportée dans un format standard (JPG, PNG, BMP)
+- Un dialogue de sauvegarde permet de choisir le nom et l’emplacement
+
+---
+
+
