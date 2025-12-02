@@ -84,6 +84,7 @@ Chemins
 
 ## Démonstration vidéo
 Vous pouvez voir une démonstration de l'application sur YouTube :
+
 [![Regarder la vidéo](https://img.youtube.com/vi/OuklhfQZ1ZQ/0.jpg)](https://www.youtube.com/watch?v=OuklhfQZ1ZQ)
 
 
