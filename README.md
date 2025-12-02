@@ -91,4 +91,10 @@ Si l’option est activée :
 
 ---
 
+## 📸 Captures d'écran
+
+Voici quelques aperçus de l'application :
+
+
+
 
