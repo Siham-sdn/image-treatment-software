@@ -93,6 +93,7 @@ Les miniatures des résultats sont affichées dans la zone **Miniatures**.
 - Cliquer sur **Sauvegarder Image**
 - Choisir le nom et l’emplacement du fichier
 - Valider
+<img width="960" height="540" alt="Sauvegarder Image" src="https://github.com/user-attachments/assets/27ea48e7-d989-468f-ab60-9e7a420ac4a4" />
 
 ---
 
