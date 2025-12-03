@@ -13,7 +13,7 @@ Pour compiler et exécuter le projet, il vous faut :
 
 
 
-## Fonctionnalités principales  
+## Fonctionnalités principales 
 - Chargement d’images
 - Chargement de vidéos
 - Capture vidéo via **Webcam**
