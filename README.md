@@ -1,6 +1,6 @@
 # Image Treatment Software 🖼️
 
-## Description  
+## Description 
 **Image Treatment Software** Cette application est un logiciel desktop développé en **C++** permettant le **traitement d’images, de vidéos et de flux webcam en temps réel** à l’aide d’une interface graphique moderne basée sur un système de **pipeline de traitements**.
 L’utilisateur peut charger une image, une vidéo ou activer la webcam, puis appliquer plusieurs filtres sous forme de chaîne de traitement (pipeline).
 
