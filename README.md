@@ -5,7 +5,7 @@
 L’utilisateur peut charger une image, une vidéo ou activer la webcam, puis appliquer plusieurs filtres sous forme de chaîne de traitement (pipeline).
 
     
-## Prérequis  
+## Prérequis 
 Pour compiler et exécuter le projet, il vous faut :  
 - Un compilateur C++ compatible (supportant C++11 ou supérieur)  
 - Un environnement de développement compatible avec les fichiers `.sln` / `.vcxproj` (Visual Studio sur Windows, ou équivalent pour d’autres OS)  
